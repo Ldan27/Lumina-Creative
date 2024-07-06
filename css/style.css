@@ -131,25 +131,15 @@ ul a {
   border-radius: 30px;
 }
 
-/* Callback Form */
+/* Form */
 
-.callback-form {
+form {
   width: 100%;
   padding: 20px 0;
 }
 
-.callback-form label {
-  display: block;
-  margin-bottom: 5px;
-}
 
-.callback-form .form-control {
-  margin-bottom: 15px;
-}
-
-
-
-.callback-form input,
+form input,
 textarea,
 button {
   width: 100%;
@@ -160,12 +150,12 @@ button {
   margin-bottom: 15px;
 }
 
-.callback-form input:focus,
+form input:focus,
 textarea:focus {
   outline: 2px solid #28a745;
 }
 
-.callback-form .btn {
+form .btn {
   padding: 12px 0;
   margin-top: 20px;
 }
