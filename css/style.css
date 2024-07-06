@@ -149,7 +149,8 @@ ul a {
 
 
 
-.callback-form input {
+.callback-form input,
+button {
   width: 100%;
   padding: 4px;
   height: 40px;
