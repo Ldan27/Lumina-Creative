@@ -150,6 +150,7 @@ ul a {
 
 
 .callback-form input,
+textarea,
 button {
   width: 100%;
   padding: 4px;
@@ -159,9 +160,9 @@ button {
   margin-bottom: 15px;
 }
 
-.callback-form input:focus {
-  outline: none;
-  border: #28a745 3px solid;
+.callback-form input:focus,
+textarea:focus {
+  outline: 2px solid #28a745;
 }
 
 .callback-form .btn {
